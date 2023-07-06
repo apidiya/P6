@@ -35,9 +35,9 @@ function custom_header_menu( $items, $args ) {
     // Vérifiez si l'utilisateur connecté est un administrateur
     if ( current_user_can( 'administrator' ) ) {
         // Trouver la position du lien souhaité dans les éléments du menu
-        $position = strpos( $items, '</li>', 2 ); // Indiquez ici la position souhaitée
+        $position = strpos( $items, '</li>', 2 ); // Indique ici la position souhaitée
 
-        // Ajoutez le lien "admin" à la position trouvée
+        // Ajoute le lien "admin" à la position trouvée
         $items = substr_replace( $items, '<li><a href="' . admin_url() . '">Admin</a></li>', $position, 0 );
     }
     return $items;
