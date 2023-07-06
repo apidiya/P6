@@ -1,5 +1,8 @@
-
-<div style="background:green"><h2>footer</h2></div>
+<footer>
+  <div class="footer-content">
+    <a href=#>Mentions Légales</a>
+  </div>
+</footer>
 <?php wp_footer(); ?>
 </body>
 </html>

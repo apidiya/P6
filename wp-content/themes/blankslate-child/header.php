@@ -13,10 +13,11 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png" alt="logo planty">
         </a>
     </div>
+    <!-- affichage du menu et définition de son emplacement -->
     <nav><?php  
     wp_nav_menu( array( 
-        'theme_location' => 'header') );
-    ?>
+        'theme_location' => 'header') ); 
+    ?> 
     </nav>
 </header>
     
