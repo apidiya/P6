@@ -23,24 +23,28 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
 
-function menu_header() {
-    register_nav_menu('header',__( 'Mon menu header' ));
+function menu() {
+    register_nav_menu('header',__( 'header' ));
+    register_nav_menu('footer',__( 'footer' ));
 }
 
-add_action( 'init','menu_header');
+add_action( 'init','menu');
 
+// Ajouter un hook au menu de navigation
+add_filter( 'wp_nav_menu_items', 'ajouter_lien_admin', 10, 2 );
 
-// Ajout du lien ADMIN dans le menu 
-function custom_header_menu( $items, $args ) {
-    // Vérifiez si l'utilisateur connecté est un administrateur
-    if ( current_user_can( 'administrator' ) ) {
-        // Trouver la position du lien souhaité dans les éléments du menu
-        $position = strpos( $items, '</li>', 2 ); // Indique ici la position souhaitée
-
-        // Ajoute le lien "admin" à la position trouvée
-        $items = substr_replace( $items, '<li><a href="' . admin_url() . '">Admin</a></li>', $position, 0 );
+function ajouter_lien_admin( $items, $args ) {
+    // Vérifier si l'utilisateur est connecté 
+    if ( is_user_logged_in() && $args->theme_location == 'header') {
+        // Créer le lien vers l'administration de WordPress
+        
+        $lien_admin = '<li class="adminmenu"><a href="' . admin_url() . '">Admin</a></li>';
+        // Ajouter le lien à la fin du menu
+        $items .= $lien_admin;
     }
     return $items;
 }
-add_filter( 'wp_nav_menu_items', 'custom_header_menu', 10, 2 );
 
+// supprimer les p ajouté par CF7 
+
+add_filter('wpcf7_autop_or_not', '__return_false');

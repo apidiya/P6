@@ -30,6 +30,19 @@ nav ul {
     display: flex;
     align-items: center;
 }
+/* gestion de l'ordre du menu admin */
+nav ul li {
+    order: 0;
+}
+
+nav ul .commander {
+    order: 99;
+}  
+
+nav ul .adminmenu {
+    order: 98;
+}
+
 
 nav ul li a {
     text-decoration: none;
@@ -65,6 +78,18 @@ footer {
 
   /* ACCUEIL */
 
-.canfooter {
-    padding: 0px;
-  }
+.gouts {
+    word-break: break-all;
+}
+
+.formulaire label {
+ display: block;
+}
+
+.formulaire input, .formulaire textarea {
+    padding: 15px 20px;
+    border: none; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+

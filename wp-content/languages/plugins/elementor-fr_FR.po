@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-08 13:01:31+0000\n"
+"PO-Revision-Date: 2023-07-08 12:08:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,143 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release)\n"
+
+#: modules/styleguide/module.php:143
+msgid "Switch between the content area and style guide to preview your changes to global colors."
+msgstr "Basculer entre la zone de contenu et le guide de style pour prévisualiser les modifications des couleurs globales."
+
+#: modules/styleguide/module.php:62
+msgid "Display a live preview of changes to global colors and fonts in a sleek style guide from the site’s settings. You will be able to toggle between the style guide and the page to see your changes in action."
+msgstr "Affichez un aperçu en direct des modifications apportées aux couleurs et aux polices globales dans un guide de style élégant à partir des réglages du site. Vous pourrez basculer entre le guide de style et la page pour voir vos modifications en action."
+
+#: modules/styleguide/module.php:60
+msgid "Global Style Guide"
+msgstr "Guide de style global"
+
+#: modules/nested-tabs/widgets/nested-tabs.php:342
+msgid "Note: Scroll tabs if they don’t fit into their parent container."
+msgstr "Remarque : fait défiler les onglets s’ils ne rentrent pas dans leur conteneur parent."
+
+#: modules/nested-tabs/widgets/nested-tabs.php:340
+msgid "Horizontal Scroll"
+msgstr "Défilement horizontal"
+
+#: modules/nested-accordion/widgets/nested-accordion.php:124
+msgid "Item #3"
+msgstr "Élément 3"
+
+#: modules/nested-accordion/widgets/nested-accordion.php:121
+msgid "Item #2"
+msgstr "Élément 2"
+
+#: modules/nested-accordion/widgets/nested-accordion.php:118
+msgid "Item #1"
+msgstr "Elément 1"
+
+#: modules/nested-accordion/widgets/nested-accordion.php:90
+#: modules/nested-accordion/widgets/nested-accordion.php:91
+msgid "Item Title"
+msgstr "Titre de l’élément"
+
+#: modules/nested-accordion/widgets/nested-accordion.php:50
+msgid "item #%s"
+msgstr "élément N°%s"
+
+#. translators: 1: Link opening tag, 2: Link closing tag.
+#: modules/nested-accordion/module.php:43
+msgid "Create a rich user experience by layering widgets together inside “Nested” Accordion, etc. %1$sLearn More%2$s"
+msgstr "Créez une expérience utilisateur/utilisatrice riche en superposant des widgets dans un accordéon « imbriqué », etc. %1$sEn savoir plus%2$s"
+
+#: modules/nested-accordion/module.php:40
+msgid "Nested Accordion"
+msgstr "Accordéon imbriqué"
+
+#: includes/widgets/toggle.php:135
+msgid "You are currently editing a Toggle widget in its old version. Drag a new Accordion widget onto your page to use a newer version, providing nested capabilities."
+msgstr "Vous modifiez actuellement un widget Bascule dans son ancienne version. Faites glisser un nouveau widget Accordéon sur votre page pour utiliser une version plus récente, offrant des fonctionnalités imbriquées."
+
+#: includes/widgets/image.php:374
+msgid "Object Position"
+msgstr "Position de l’objet"
+
+#: includes/widgets/image-carousel.php:893
+msgid "of"
+msgstr "de"
+
+#: includes/widgets/icon.php:318
+msgid "Fit to Size"
+msgstr "Ajuster à la taille"
+
+#: includes/widgets/accordion.php:131
+msgid "You are currently editing an Accordion Widget in its old version. Any new Accordion widget dragged into the canvas will be the new Accordion widget, with the improved Nested capabilities."
+msgstr "Vous êtes en train de modifier un widget accordéon dans son ancienne version. Tout nouveau widget accordéon glissé dans le canevas sera le nouveau widget accordéon, avec les capacités d'imbrication améliorées."
+
+#: includes/frontend.php:1401
+msgid "Go to slide"
+msgstr "Aller à la diapositive"
+
+#: includes/frontend.php:1400
+msgid "This is the last slide"
+msgstr "Ceci est la dernière diapositive"
+
+#: includes/frontend.php:1399
+msgid "This is the first slide"
+msgstr "Ceci est la première diapositive"
+
+#: includes/frontend.php:1398
+msgid "Next slide"
+msgstr "Diapositive suivante"
+
+#: includes/frontend.php:1397
+msgid "Previous slide"
+msgstr "Diapositive précédente"
+
+#: includes/frontend.php:1396
+msgid "Carousel | Horizontal scrolling: Arrow Left & Right"
+msgstr "Carousel | Scroll horizontal: Flèche gauche & droite"
+
+#: includes/editor-templates/navigator.php:61
+msgid "Show/hide Element"
+msgstr "Montrer/cacher élément"
+
+#: includes/editor-templates/navigator.php:48
+msgid "Show/hide inner elements"
+msgstr "Montrer/cacher éléments internes"
+
+#: includes/editor-templates/navigator.php:38
+msgid "Resize navigator"
+msgstr "Redimensionner le navigateur"
+
+#: includes/editor-templates/navigator.php:37
+msgid "Resize structure"
+msgstr "Redimensionner la structure"
+
+#: includes/editor-templates/hotkeys.php:96
+msgid "Panels"
+msgstr "Panneaux"
+
+#: includes/controls/gallery.php:83 includes/controls/gallery.php:85
+#: assets/js/editor.js:13678
+msgid "Clear gallery"
+msgstr "Vider la galerie"
+
+#: core/settings/editor-preferences/model.php:161
+msgid "Switch between the content area and style guide to preview your changes to global colors and fonts."
+msgstr "Passez de la zone de contenu au guide de style pour prévisualiser vos modifications de couleurs et de polices globales."
+
+#: core/settings/editor-preferences/model.php:159
+#: modules/styleguide/module.php:141
+#: assets/js/9901e5ed764a3348e6e0.bundle.js:448
+msgid "Style Guide Preview"
+msgstr "Prévisualisation du guide de style"
+
+#: core/document-types/page-base.php:228
+msgid "Allow Comments"
+msgstr "Autoriser commentaires"
+
+#: core/document-types/page-base.php:216
+msgid "Order"
+msgstr "Ordre"
 
 #: includes/template-library/sources/local.php:518
 msgid "Invalid template type."
@@ -23,15 +160,131 @@ msgstr "Vous n’avez pas les droits suffisants pour installer les extensions de
 msgid "Get Elementor Pro"
 msgstr "Obtenir Elementor Pro"
 
+#: modules/ai/connect/ai.php:22 assets/js/ai-admin.js:355 assets/js/ai.js:538
+msgid "AI"
+msgstr "IA"
+
 #. translators: 1: Link open tag, 2: Link close tag.
 #: includes/widgets/image-carousel.php:326
 #: includes/widgets/image-gallery.php:146 includes/widgets/image.php:223
 msgid "Manage your site’s lightbox settings in the %1$sLightbox panel%2$s."
 msgstr "Gérer les réglages de la visionneuse du site dans le %1$spanneau visionneuse%2$s."
 
+#: includes/elements/container.php:336 includes/elements/container.php:353
+msgid "Container Layout"
+msgstr "Mise en page du conteneur"
+
 #: includes/editor-templates/panel-elements.php:11
 msgid "Globals"
 msgstr "Globales"
+
+#: includes/editor-templates/navigator.php:28
+msgid "Close navigator"
+msgstr "Fermer le navigateur"
+
+#: includes/editor-templates/navigator.php:27
+msgid "Close structure"
+msgstr "Fermer la structure"
+
+#: includes/editor-templates/navigator.php:16 assets/js/editor.js:34257
+msgid "Expand all elements"
+msgstr "Déplier tous les éléments"
+
+#: includes/editor-templates/global.php:66 includes/elements/container.php:342
+msgid "Grid"
+msgstr "Grille"
+
+#: includes/editor-templates/global.php:58 includes/elements/container.php:341
+msgid "Flexbox"
+msgstr "Flexbox"
+
+#: includes/editor-templates/global.php:50
+msgid "Which layout would you like to use?"
+msgstr "Quelle mise en page utiliser ?"
+
+#: includes/editor-templates/global.php:9
+msgid "Select your structure"
+msgstr "Choisir votre structure"
+
+#: includes/controls/groups/grid-container.php:220
+msgctxt "Grid Container Control"
+msgid "Align Content"
+msgstr "Aligner le contenu"
+
+#: includes/controls/groups/grid-container.php:206
+#: includes/controls/groups/grid-container.php:246
+msgctxt "Grid Container Control"
+msgid "Space Evenly"
+msgstr "Espace uniforme"
+
+#: includes/controls/groups/grid-container.php:202
+#: includes/controls/groups/grid-container.php:242
+msgctxt "Grid Container Control"
+msgid "Space Around"
+msgstr "Espace autour"
+
+#: includes/controls/groups/grid-container.php:198
+#: includes/controls/groups/grid-container.php:238
+msgctxt "Grid Container Control"
+msgid "Space Between"
+msgstr "Espace entre"
+
+#: includes/controls/groups/grid-container.php:190
+#: includes/controls/groups/grid-container.php:230
+msgctxt "Grid Container Control"
+msgid "Middle"
+msgstr "Au milieu"
+
+#: includes/controls/groups/grid-container.php:180
+msgctxt "Grid Container Control"
+msgid "Justify Content"
+msgstr "Justifier le contenu"
+
+#: includes/controls/groups/grid-container.php:153
+msgctxt "Grid Container Control"
+msgid "Align Items"
+msgstr "Aligner les éléments"
+
+#: includes/controls/groups/grid-container.php:141
+#: includes/controls/groups/grid-container.php:169
+msgctxt "Grid Container Control"
+msgid "Stretch"
+msgstr "Étirer"
+
+#: includes/controls/groups/grid-container.php:137
+#: includes/controls/groups/grid-container.php:165
+#: includes/controls/groups/grid-container.php:194
+#: includes/controls/groups/grid-container.php:234
+msgctxt "Grid Container Control"
+msgid "End"
+msgstr "FIn"
+
+#: includes/controls/groups/grid-container.php:133
+#: includes/controls/groups/grid-container.php:161
+msgctxt "Grid Container Control"
+msgid "Center"
+msgstr "Centrer"
+
+#: includes/controls/groups/grid-container.php:129
+#: includes/controls/groups/grid-container.php:157
+#: includes/controls/groups/grid-container.php:186
+#: includes/controls/groups/grid-container.php:226
+msgctxt "Grid Container Control"
+msgid "Start"
+msgstr "Début"
+
+#: includes/controls/groups/grid-container.php:125
+msgctxt "Grid Container Control"
+msgid "Justify Items"
+msgstr "Justifier les éléments"
+
+#: includes/controls/groups/grid-container.php:110
+msgid "Auto Flow"
+msgstr "Flux automatique"
+
+#: includes/controls/groups/grid-container.php:96
+msgid "Gaps"
+msgstr "Écarts"
 
 #: includes/controls/groups/grid-container.php:71
 msgid "Rows"
@@ -50,6 +303,35 @@ msgstr "Ligne"
 msgid "Switch units"
 msgstr "Changer d’unités"
 
+#. translators: %1$s Link open tag, %2$s: Link close tag.
+#: core/experiments/manager.php:438
+msgid "Create pixel perfect layouts by placing elements in a customizable grid. Activate to add the CSS Grid option to container elements. %1$sLearn more%2$s"
+msgstr "Créez des mises en page parfaites au pixel près en plaçant des éléments dans une grille personnalisable. Activez pour ajouter l’option Grid CSS aux éléments de conteneur. %1$sEn savoir plus%2$s"
+
+#: core/experiments/manager.php:435
+msgid "Grid Container"
+msgstr "Conteneur grille"
+
+#: core/experiments/manager.php:414
+msgid "If you deactivate Flexbox Container, you will permanently delete all content created with containers and lose access to container-based features like Tabs and Menu widgets"
+msgstr "Désactiver le conteneur Flexbox va supprimer définitivement tout le contenu créé avec les conteneurs et fera perdre l’accès aux fonctions basées sur les conteneurs, les widgets d’onglets et de menu."
+
+#: core/editor/templates/editor-body-v2.view.php:29
+msgid "Top Bar"
+msgstr "Barre supérieure"
+
+#: core/editor/templates/editor-body-v1.view.php:27
+#: core/editor/templates/editor-body-v2.view.php:27
+#: includes/editor-templates/editor-wrapper.php:30
+#: assets/js/packages/editor.js:187
+msgid "Edit \"%s\" with Elementor"
+msgstr "Modifier « %s » avec Elementor"
+
+#. translators: 1: Link open tag, 2: Link close tag.
+#: core/document-types/page-base.php:97
+msgid "Set a different selector for the title in the %1$sLayout panel%2$s."
+msgstr "Définir un sélecteur différent pour le titre dans le %1$spanneau de mise en page%2$s."
+
 #: includes/widgets/icon-list.php:578
 msgid "Adjust Vertical Position"
 msgstr "Ajuster la position verticale"
@@ -61,6 +343,14 @@ msgstr "Alignement horizontal"
 #: includes/widgets/alert.php:495 includes/widgets/alert.php:534
 msgid "Dismiss this alert."
 msgstr "Ignorer cette alerte."
+
+#: core/editor/editor.php:614
+msgid "Get a sneak peek of the new Editor powered by React. The beautiful design and experimental layout of the Top bar are just some of the exciting tools on their way. %s"
+msgstr "Découvrez en avant-première le nouvel éditeur optimisé par React. Le beau design et la disposition expérimentale de la barre Top ne sont que quelques-uns des outils passionnants sur leur chemin. %s"
+
+#: core/editor/editor.php:612
+msgid "Editor Top Bar"
+msgstr "Barre supérieure de l’éditeur"
 
 #: core/breakpoints/manager.php:329
 msgid "Tablet Landscape"
@@ -5064,6 +5354,10 @@ msgctxt "Image Size Control"
 msgid "Full"
 msgstr "Entière"
 
+#: includes/controls/gallery.php:92
+msgid "Edit gallery"
+msgstr "Modifier la galerie"
+
 #: includes/widgets/icon-box.php:511 includes/widgets/icon-list.php:552
 #: includes/widgets/image-box.php:437
 msgid "Vertical Alignment"
@@ -6417,6 +6711,10 @@ msgstr "Aide"
 #: core/breakpoints/manager.php:314
 msgid "Mobile Portrait"
 msgstr "Portrait mobile"
+
+#: core/breakpoints/manager.php:319
+msgid "Mobile Landscape"
+msgstr "Mobile Paysage"
 
 #: core/settings/editor-preferences/model.php:134
 #: assets/js/kit-library.3dff2fd14c0324c37675.bundle.js:4287
