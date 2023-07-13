@@ -82,8 +82,12 @@ footer {
     word-break: break-all;
 }
 
+/* formulaire */
+
 .formulaire label {
  display: block;
+ padding-bottom: 10px;
+ padding-top: 10px;
 }
 
 .formulaire input, .formulaire textarea {
@@ -91,5 +95,20 @@ footer {
     border: none; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    
 }
 
+.formulaire .boutonenvoyer input {
+    color: white;
+    margin-top: 20px;
+    padding: 15px 70px;
+    margin-left: 80px;
+    background-color: #E0B9B4;
+
+}
+
+.formulaire .boutonenvoyer input:hover {
+    background-color: #C02E44;
+
+  }
+  
