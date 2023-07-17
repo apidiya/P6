@@ -30,19 +30,6 @@ nav ul {
     display: flex;
     align-items: center;
 }
-/* gestion de l'ordre du menu admin */
-nav ul li {
-    order: 0;
-}
-
-nav ul .commander {
-    order: 99;
-}  
-
-nav ul .adminmenu {
-    order: 98;
-}
-
 
 nav ul li a {
     text-decoration: none;
@@ -58,6 +45,24 @@ nav ul li a {
     width: 236;
     color: white;
     background: #DC9F96 ;
+}
+
+.commander a:hover {
+    background: #C02E44;
+
+}
+
+/* gestion de l'ordre du menu admin */
+nav ul li {
+    order: 0;
+}
+
+nav ul .commander {
+    order: 99;
+}  
+
+nav ul .adminmenu {
+    order: 98;
 }
 
 /* FOOTER */
