@@ -85,10 +85,10 @@ footer {
 
   /* courbe */
 .section {
-    height:40px;
+    height:60px;
     width:100%;
     background-color:#ECE2DA;
-    border-radius: 0 0 95% 95%;
+    border-radius: 0 0 80% 80%;
     box-shadow: 0 10px 0 #dcd5cf;
     
 }
@@ -129,50 +129,61 @@ footer {
   
 /* formulaire commander */
 
-.form-columns {
-    color: #FFF;
-    display: flex;    
-}
-
-.form-columns h2 {
+.form-column h2 {
+    margin-bottom: 20px;
     font-size: 30px;
     font-weight: 700;
 }
-  
-.form-column {
-    flex-basis: 50%;
-    padding: 0 20px;
-}
-        /* barre verticale de séparation */
-.form-column:first-child {
-    border-right: 1px solid white; 
+
+.form-buy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: white;
 }
 
-.form-columns input, .form-columns textarea {
-    padding: 15px 20px;
-    margin-bottom: 30px;
+.form-column {
+    width: 50%;
+    padding: 0 20px;
+    color: white;
+    box-sizing: border-box;
+}
+  
+.form-column:first-child {
+    border-right: 1px solid white;
+}
+  
+.form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.form-button input[type="submit"] {
+    color: white;
+    padding: 15px 70px;
+    background-color: #E0B9B4;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-button input:hover {
+    background-color: #C02E44;
+}
+  
+.form-column label {
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.form-column input, .form-column textarea  {
+    padding: 20px 30px;
     border: none; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    margin-bottom: 20px;
+    
 }
-
-.form-columns .boutoncommander input {
-    color: white;
-    margin-top: 20px;
-    padding: 15px 70px;
-    margin-left: 80px;
-    background-color: #E0B9B4;
-}
-
-.form-columns .boutoncommander input:hover {
-    background-color: #C02E44;
-
-}
-
-
-
-  
-  
-  
-  
-  
