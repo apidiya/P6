@@ -83,16 +83,26 @@ footer {
 
   /* ACCUEIL */
 
+  /* courbe */
+.section {
+    height:40px;
+    width:100%;
+    background-color:#ECE2DA;
+    border-radius: 0 0 95% 95%;
+    box-shadow: 0 10px 0 #dcd5cf;
+    
+}
+
 .gouts {
     word-break: break-all;
 }
 
-/* formulaire */
+/* formulaire nous rencontrer*/
 
 .formulaire label {
- display: block;
- padding-bottom: 10px;
- padding-top: 10px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .formulaire input, .formulaire textarea {
@@ -115,5 +125,54 @@ footer {
 .formulaire .boutonenvoyer input:hover {
     background-color: #C02E44;
 
-  }
+}
+  
+/* formulaire commander */
+
+.form-columns {
+    color: #FFF;
+    display: flex;    
+}
+
+.form-columns h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+  
+.form-column {
+    flex-basis: 50%;
+    padding: 0 20px;
+}
+        /* barre verticale de séparation */
+.form-column:first-child {
+    border-right: 1px solid white; 
+}
+
+.form-columns input, .form-columns textarea {
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border: none; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+.form-columns .boutoncommander input {
+    color: white;
+    margin-top: 20px;
+    padding: 15px 70px;
+    margin-left: 80px;
+    background-color: #E0B9B4;
+}
+
+.form-columns .boutoncommander input:hover {
+    background-color: #C02E44;
+
+}
+
+
+
+  
+  
+  
+  
   
