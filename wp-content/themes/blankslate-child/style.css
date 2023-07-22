@@ -248,3 +248,15 @@ footer {
     margin-left: -45px;
     width: 92px;
 }
+
+.ok:hover {
+    background-color: #C02E44;
+}
+
+.separation {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+  }
