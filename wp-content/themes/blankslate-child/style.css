@@ -1,21 +1,19 @@
 /*
-Theme Name: BlankSlate Child
-Theme URI: https://github.com/tidythemes/blankslate
-Template: blankslate
-Author: TidyThemes
-Author URI: https://github.com/tidythemes
-Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
-Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
-Version: 2023.1683812282
-Updated: 2023-05-11 15:38:02
-
+Theme Name: BlankSlate Child;
+Theme URI: https://github.com/tidythemes/blankslate;
+Template: blankslate;
+Author: TidyThemes;
+Author URI: https://github.com/tidythemes;
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.;
+Tags: accessibility-ready, one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready;
+Version: 2023.1683812282;
+Updated: 2023-05-11 15:38:02;
 */
 
 /* GENERAL */
 * {
     font-family: 'Syne', sans-serif;
 }
-
 
 /* HEADER */
 header {
@@ -25,20 +23,16 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
 nav ul {
     display: flex;
     align-items: center;
 }
-
 nav ul li a {
     text-decoration: none;
-    padding:40px;
+    padding: 40px;
     font-size: 16px;
     color: black;
-    
 }
-
 .commander a {
     margin-right: 0px;
     height: 80;
@@ -46,120 +40,99 @@ nav ul li a {
     color: white;
     background: #DC9F96 ;
 }
-
 .commander a:hover {
     background: #C02E44;
-
 }
-
 /* gestion de l'ordre du menu admin */
 nav ul li {
     order: 0;
 }
-
 nav ul .commander {
     order: 99;
-}  
-
+}
 nav ul .adminmenu {
     order: 98;
 }
 
 /* FOOTER */
-
 footer {
     height: 60px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .footer-content a {
+}
+.footer-content a {
     text-decoration: none;
-    color:black;
-  }
-  
-
-  /* ACCUEIL */
-
-  /* courbe */
-.section {
-    height:60px;
-    width:100%;
-    background-color:#ECE2DA;
-    border-radius: 0 0 80% 80%;
-    box-shadow: 0 10px 0 #dcd5cf;
-    
+    color: black;
 }
 
+/* ACCUEIL */
+/* courbe */
+.section {
+    height: 60px;
+    width: 100%;
+    background-color: #ECE2DA;
+    border-radius: 0 0 80% 80%;
+    box-shadow: 0 10px 0 #dcd5cf;
+}
 .gouts {
     word-break: break-all;
 }
 
-/* formulaire nous rencontrer*/
-
+/* NOUS RENCONTRER */
+/* formulaire */
 .formulaire label {
     display: block;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-
 .formulaire input, .formulaire textarea {
     padding: 15px 20px;
-    border: none; 
+    border: none;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 .formulaire .boutonenvoyer input {
     color: white;
     margin-top: 20px;
     padding: 15px 70px;
     margin-left: 80px;
     background-color: #E0B9B4;
-
 }
-
 .formulaire .boutonenvoyer input:hover {
     background-color: #C02E44;
-
 }
-  
-/* formulaire commander */
 
+/* COMMANDER */
+/* formulaire commander */
 .form-column h2 {
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 700;
 }
-
 .form-buy {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     color: white;
 }
-
 .form-column {
     width: 50%;
     padding: 0 20px;
     color: white;
     box-sizing: border-box;
 }
-  
 .form-column:first-child {
     border-right: 1px solid white;
 }
-  
 .form-button {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 70px;
 }
-  
 .form-button input[type="submit"] {
     color: white;
     padding: 15px 70px;
@@ -168,39 +141,31 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 .form-button input:hover {
     background-color: #C02E44;
 }
-  
 .form-column label {
     display: block;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-
 .form-column input, .form-column textarea  {
     padding: 20px 30px;
-    border: none; 
+    border: none;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    
 }
-
 /* boutons commander */
-
 .form-counter {
     display: flex;
     margin-left: 150px;
-    gap: 50px;    
+    gap: 50px;
 }
-
 .selection {
     width: 70px;
     position: relative;
 }
-
 .form-counter input {
     padding: 15px;
     width: 60px;
@@ -217,7 +182,6 @@ footer {
     height: 100%;
     border-radius: 0 10px 10px 0;
     margin-left: 50px;
-
 }
 .boutons a {
     padding: 0px 10px;
@@ -229,16 +193,12 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.moins {
-    border-radius: 0 10px 0 0;
-    
-    
-}
 .plus {
-    border-radius: 0 0 10px 0;
+    border-radius: 0 10px 0 0;
     border-bottom: 1px solid white;
-    
-    
+}
+.moins {
+    border-radius: 0 0 10px 0;
 }
 .ok {
     color: white;
@@ -248,15 +208,13 @@ footer {
     margin-left: -45px;
     width: 92px;
 }
-
 .ok:hover {
     background-color: #C02E44;
 }
-
 .separation {
     width: 100%;
     height: 1px;
     background-color: white;
-    margin-top: 30px; 
+    margin-top: 30px;
     margin-bottom: 30px;
-  }
+}
