@@ -1,13 +1,13 @@
 /*
-Theme Name: BlankSlate Child
-Theme URI: https://github.com/tidythemes/blankslate
-Template: blankslate
-Author: TidyThemes
-Author URI: https://github.com/tidythemes
+Theme Name: BlankSlate Child;
+Theme URI: https://github.com/tidythemes/blankslate;
+Template: blankslate;
+Author: TidyThemes;
+Author URI: https://github.com/tidythemes;
 Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.;
 Tags: accessibility-ready, one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready;
-Version: 2023.1683812282
-Updated: 2023-05-11 15:38:02
+Version: 2023.1683812282;
+Updated: 2023-05-11 15:38:02;
 */
 
 /* GENERAL */
@@ -16,27 +16,27 @@ Updated: 2023-05-11 15:38:02
 }
 
 /* HEADER */
-header {      
+header {
+    padding: 31px;
+    padding-right: 0px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
-}
-header .logo {
-    padding: 20px;
 }
 nav ul {
     display: flex;
     align-items: center;
 }
 nav ul li a {
-    display: block;
     text-decoration: none;
-    padding: 25px 40px;
+    padding: 40px;
     font-size: 16px;
     color: black;
 }
 .commander a {
     margin-right: 0px;
-    padding: 25px 40px ;
+    height: 80px;
+    width: 236px;
     color: white;
     background: #DC9F96 ;
 }
@@ -108,7 +108,9 @@ footer {
 /* boutons commander */
 .form-counter {
     display: flex;
-    gap: 30px;   
+    margin-left: 0;
+    gap: 50px;
+    
 }
 .selection {
     width: 70px;
@@ -153,8 +155,8 @@ footer {
     background: #E0B9B4;
     border: 0;
     border-radius: 5px;
-    flex: 1;
-  
+    margin-right: 50px;
+    width: 100px;
 }
 .ok:hover {
     background-color: #C02E44;
@@ -219,19 +221,8 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    box-sizing: border-box;
 }
 
-.blocbouton {
-    width: 25%;
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-}
-
-.blocbouton span {
-    display: none;
-}
 
 /* Styles pour le logo principal */
 .logo img {
@@ -242,65 +233,8 @@ footer {
   
   /* Media Queries pour les écrans étroits (mobiles) */
   @media screen and (max-width: 768px) {
-    .logo {
-        padding: 10px;
-        
-    }
     .logo img {
       max-width: 150px; /* taille du logo pour les écrans mobiles */
-    }
-
-    header {
-        flex-direction: column;
-        padding: 0;
-        height: auto;
-
-    }
-
-    header nav ul {
-        display: flex;
-        align-items: stretch;
-        justify-content: space-between;
-    }
-
-    nav ul li {
-       
-        flex: 1;
-        text-align: center;
-    }
-
-    nav ul li a , .commander a {
-        font-size: 12px;
-        padding: 20px 10px;
-    }
-
-    .blocbouton {
-
-        width: calc(50% - 15px);
-        flex-wrap: wrap;
-    }
-
-    .blocbouton span {
-        display: block;
-        text-align: center;
-        color: white;
-        font-size: 15px;
-        font-weight: 800;
-        width: 100%;
-    }
-
-    .form-counter {
-        flex-wrap: wrap;
-    }
-
-    .form-column {
-        width: 100%;
-    
-    }
-
-    .form-column:first-child {
-        border-right: 0;
-        
     }
   }
   
