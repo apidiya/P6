@@ -105,57 +105,6 @@ footer {
 }
 
 /* COMMANDER */
-/* formulaire commander */
-.form-column h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
-    font-weight: 700;
-}
-.form-buy {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    color: white;
-}
-.form-column {
-    width: 50%;
-    padding: 0 20px;
-    color: white;
-    box-sizing: border-box;
-}
-.form-column:first-child {
-    border-right: 1px solid white;
-}
-.form-button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 70px;
-}
-.form-button input[type="submit"] {
-    color: white;
-    padding: 15px 70px;
-    background-color: #E0B9B4;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.form-button input:hover {
-    background-color: #C02E44;
-}
-.form-column label {
-    display: block;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-.form-column input, .form-column textarea  {
-    padding: 20px 30px;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
 /* boutons commander */
 .form-counter {
     display: flex;
@@ -211,6 +160,8 @@ footer {
 .ok:hover {
     background-color: #C02E44;
 }
+
+/* ligne séparation boutons-formulaire */
 .separation {
     width: 100%;
     height: 1px;
@@ -218,3 +169,58 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/* formulaire commander */
+.form-column h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.form-buy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: white;
+}
+.form-column {
+    width: 50%;
+    padding: 0 20px;
+    color: white;
+    box-sizing: border-box;
+}
+.form-column:first-child {
+    border-right: 1px solid white;
+}
+.form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.form-button input[type="submit"] {
+    color: white;
+    padding: 15px 70px;
+    background-color: #E0B9B4;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-button input:hover {
+    background-color: #C02E44;
+}
+.form-column label {
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form-column input, .form-column textarea  {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+
