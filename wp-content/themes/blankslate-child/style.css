@@ -302,5 +302,8 @@ footer {
         border-right: 0;
         
     }
+
+    .form-column input, .form-column textarea  {
+        padding: 20px 0px;
   }
   
