@@ -254,7 +254,6 @@ footer {
         flex-direction: column;
         padding: 0;
         height: auto;
-
     }
 
     header nav ul {
@@ -263,8 +262,7 @@ footer {
         justify-content: space-between;
     }
 
-    nav ul li {
-       
+    nav ul li { 
         flex: 1;
         text-align: center;
     }
@@ -275,7 +273,6 @@ footer {
     }
 
     .blocbouton {
-
         width: calc(50% - 15px);
         flex-wrap: wrap;
     }
@@ -295,12 +292,10 @@ footer {
 
     .form-column {
         width: 100%;
-    
     }
 
     .form-column:first-child {
         border-right: 0;
-        
     }
     
   }

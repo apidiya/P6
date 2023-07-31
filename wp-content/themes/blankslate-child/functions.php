@@ -34,17 +34,15 @@ add_action( 'init','menu');
 add_filter( 'wp_nav_menu_items', 'ajouter_lien_admin', 10, 2 );
 
 function ajouter_lien_admin( $items, $args ) {
-    // Vérifier si l'utilisateur est connecté 
+    // Vérifie si l'utilisateur est connecté 
     if ( is_user_logged_in() && $args->theme_location == 'header') {
-        // Créer le lien vers l'administration de WordPress
-        
+        // Crée le lien vers l'administration de WordPress        
         $lien_admin = '<li class="adminmenu"><a href="' . admin_url() . '">Admin</a></li>';
-        // Ajouter le lien à la fin du menu
+        // Ajoute le lien à la fin du menu
         $items .= $lien_admin;
     }
     return $items;
 }
 
-// supprimer les p ajouté par CF7 
-
+// supprimer les p ajouté par CF7
 add_filter('wpcf7_autop_or_not', '__return_false');
