@@ -44,5 +44,5 @@ function ajouter_lien_admin( $items, $args ) {
     return $items;
 }
 
-// supprimer les p ajouté par CF7
+// supprime les balises p ajoutées par CF7
 add_filter('wpcf7_autop_or_not', '__return_false');
