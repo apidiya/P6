@@ -38,7 +38,7 @@ function ajouter_lien_admin( $items, $args ) {
     if ( is_user_logged_in() && $args->theme_location == 'header') {
         // Crée le lien vers l'administration de WordPress        
         $lien_admin = '<li class="adminmenu"><a href="' . admin_url() . '">Admin</a></li>';
-        // Ajoute le lien à la fin du menu
+        // Ajoute le lien au menu
         $items .= $lien_admin;
     }
     return $items;
