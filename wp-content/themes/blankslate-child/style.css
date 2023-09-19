@@ -305,5 +305,25 @@ footer {
     .elementor-77{
         background-color: #3B8E46;
     }
-  }
+
+    .formulaire {
+        max-width: 99%;
+        width: 99%;
+        box-sizing: border-box;
+    }
+
+    .formulaire textarea, .formulaire input[type="text"], .formulaire input[type="email"] {
+        width: 99%;
+    }
+
+    .formulaire .boutonenvoyer input[type="submit"] {
+        margin-left: 55px; 
+    }
+        
+    .form-button input[type="submit"] {
+        width: auto; 
+        padding: 15px 30px; 
+        font-size: 16px;
+    }
+}
   
